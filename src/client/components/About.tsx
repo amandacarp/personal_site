@@ -27,7 +27,7 @@ const About = (props: AboutProps) => {
                 </div>
                 <div className="col-md-6 order-1 order-md-2 selfText">
                     <div className="mt-3">
-                        Hello! My name is Amanda. I am a full-stack web developer living in beautiful Los Angeles, California.
+                        Hello! My name is Amanda. I am a full-stack software developer living in beautiful Los Angeles, California.
                     </div>
                     <div className="mt-3">
                         I am an avid learner who never backs down from a challenge.

@@ -109,7 +109,7 @@ const Projects = (props: ProjectsProps) => {
                                         <span className='mr-4'><SiBootstrap /></span>
                                 </div>
                                </div>
-                               <div className="card-footer work">See Source Code || Visit Site || View Screenshots
+                               <div className="card-footer work">
                                <div className="techIcon  mt-2">
                                <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/BlogApp.git" className='workIcon'> <FiGithub /></a>
                                <span> || </span>

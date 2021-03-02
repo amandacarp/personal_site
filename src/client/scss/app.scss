@@ -1,6 +1,6 @@
 html,#body {
     font-family: 'Rubik', sans-serif;
-    color: white
+    color: white;
   }
 
 
@@ -18,7 +18,6 @@ html,#body {
 
 .about{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/beach4.jpg");
-    overflow: hidden;
 }
 
 .home, .about, .contact{
@@ -34,9 +33,11 @@ html,#body {
 }
 
 .projects{
+    background-size: cover;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    padding-bottom: 30px;
 }
 
   
