@@ -21,12 +21,12 @@ const About = (props: AboutProps) => {
         <>
             <div className="about container-fluid">
             { width < breakpoint ? <MobileNavbar /> : <Navbar />}
-            <div className="row mt-5 justify-content-around">
-                <div className="col-md-4 mt-5 m-5 order-2 order-md-1">
+            <div className="row ml-5 mt-5 d-flex justify-content-around align-items-center">
+                <div className="col-md-4 order-2 order-md-1">
                     <img className='aboutIMG' src="/images/self.jpg" alt="self"/>
                 </div>
                 <div className="col-md-6 order-1 order-md-2 selfText">
-                    <div className="mt-3">
+                    <div>
                         Hello! My name is Amanda. I am a full-stack software developer living in beautiful Los Angeles, California.
                     </div>
                     <div className="mt-3">
@@ -38,7 +38,7 @@ const About = (props: AboutProps) => {
                    <div className="mt-3">
                        In my free time, I enjoy volunteering at animal shelters, pet-sitting and spending time in nature. You can usually find me on the beach or on a hike. 
                    </div>
-                </div>
+               </div>
             </div>
             </div>
         </>
