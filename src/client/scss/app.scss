@@ -1,0 +1,233 @@
+html,#body {
+    font-family: 'Rubik', sans-serif;
+    color: white
+  }
+
+
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/beach1.jpg");
+}
+
+.projects{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/beach2.jpg");
+}
+
+.contact{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/beach3.jpg");
+}
+
+.about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/beach4.jpg");
+    overflow: hidden;
+}
+
+.home, .about, .contact{
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+.projects{
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+//Home
+.content{
+    margin-top: 12%;
+    font-size: 4vw
+}
+
+@media (max-width: 1032px){
+    .content{ 
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 800px){
+    .content{ 
+        margin-top: 40%;
+        font-size: 4vw;
+    }
+}
+
+
+//Navbar
+.navText{
+    color: white;
+    position: relative;
+    font-size: larger;
+}
+
+.logoText:before, .navText:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.logoText:hover:before, .navText:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+.navText:hover, .logoText:hover{
+    color: steelblue;
+    text-decoration: none
+}
+
+.logoText{
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    position: relative;
+}
+
+.logoSpan{
+    margin-top: 40px;
+    margin-left: 100px
+}
+
+//About Me Page
+.aboutIMG {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -webkit-filter: grayscale(0); 
+    filter: grayscale(0);
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 50%;
+}
+
+@media(max-width: 800px){
+    .aboutIMG{
+        margin-left: 5px;
+        margin-bottom: 30px;
+    }
+}
+
+.aboutIMG:hover {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+  
+.selfText{
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-right: 5%
+}
+
+@media(max-width: 800px) {
+    .selfText{
+        font-size: 3vw;
+
+    }    
+}
+
+//contact
+.contactDiv{
+    margin-top: 10%
+}
+
+.icon{
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    stroke: steelblue!important;
+}
+
+.spanText{
+    font-size: 4vw;
+    color: steelblue;
+    font-weight: bold;
+    text-shadow:  1px 1px 4px  #000000;
+}
+
+.spanText2{
+    font-size: 3vw;
+    color: white;
+    font-weight: bold;
+    text-shadow:  1px 1px 4px  #000000;
+}
+
+.spanText2:hover{
+    font-size: 3vw;
+    color: steelblue;
+    font-weight: bold;
+    text-shadow:  1px 1px 4px  #000000;
+    text-decoration: none;
+}
+
+.contactP{
+    font-size: 3vw
+}
+
+.contactP2{
+    font-size: 2vw
+}
+
+//Projects
+.cardBody{
+    background-color: grey!important
+}
+
+.techIcon{
+    font-size: 3vw
+}
+
+.work{
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+    text-shadow:  1px 1px 4px  #000000;
+}
+
+@media(max-width: 800px){
+    .work{
+       font-size: 3vw;
+    }
+}
+
+
+.workIcon{
+    color: white;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    cursor: pointer;
+
+}
+
+.workIcon:hover{
+    transform: scale(1.1);
+    color: steelblue!important;
+}
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
