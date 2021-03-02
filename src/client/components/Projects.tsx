@@ -112,9 +112,9 @@ const Projects = (props: ProjectsProps) => {
                                <div className="card-footer work">
                                <div className="techIcon  mt-2">
                                <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/BlogApp.git" className='workIcon'> <FiGithub /></a>
-                               <span> || </span>
+                               <span className="workIcon"> || </span>
                                <a data-tip="View Site" rel="noreferrer" target="_blank" href="https://quiettimeblogs.herokuapp.com/" className='workIcon'><CgWebsite /></a>
-                               <span> || </span>
+                               <span className="workIcon"> || </span>
                                 <span data-tip="Screenshots" className="workIcon" onClick={showImages}><BsImage /></span>
                                </div>
 
@@ -147,9 +147,9 @@ const Projects = (props: ProjectsProps) => {
                                <div className="card-footer work">
                                <div className="techIcon  mt-2">
                                <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/TS-Chirper.git" className='workIcon'> <FiGithub /></a>
-                               <span> || </span>
+                               <span className="workIcon"> || </span>
                                <a data-tip="View Site" rel="noreferrer" target="_blank" href="https://chirper-web.herokuapp.com/" className='workIcon'><CgWebsite /></a>
-                               <span> || </span>
+                               <span className="workIcon"> || </span>
                                 <span data-tip="Screenshots" className="workIcon" onClick={showChirpImages}><BsImage /></span>
                                </div>
 
