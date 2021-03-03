@@ -6,11 +6,11 @@ import { DiNpm } from 'react-icons/di';
 import { FaStripe } from 'react-icons/fa';
 import { FiGithub } from 'react-icons/fi';
 import { CgWebsite } from 'react-icons/cg';
-import { BsImage } from 'react-icons/bs';
 import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import Swal from 'sweetalert2';
 import ReactTooltip from 'react-tooltip';
+import BlogImages from './BlogImages';
+import ChirperImage from './ChirperImage';
 
 
 
@@ -34,47 +34,6 @@ const Projects = (props: ProjectsProps) => {
         const unlisten = history.listen(() => setShow(false));
         return () => unlisten();
     }, [history])
-
-    const showImages = () => {
-        Swal.mixin({
-            showCloseButton: true,
-            confirmButtonText: 'Next &rarr;',
-            progressSteps: ['1', '2', '3']
-
-        }).queue([
-            {
-                imageUrl: 'images/homeblog.png'
-            },
-            {
-                imageUrl: 'images/singleblog.png'
-            },
-            {
-                imageUrl: 'images/register.png'
-            }
-        ])
-        
-    }
-
-    const showChirpImages = () => {
-        Swal.mixin({
-            showCloseButton: true,
-            confirmButtonText: 'Next &rarr;',
-            progressSteps: ['1', '2', '3'] 
-        }).queue([
-            {
-                imageUrl: 'images/chirper1.png'
-            },
-            {
-                imageUrl: 'images/chirper2.png'
-            },
-            {
-                imageUrl: 'images/chirper3.png'
-            }
-        ])
-    }
-
-
-
 
     return (
         <>
@@ -109,14 +68,14 @@ const Projects = (props: ProjectsProps) => {
                                         <span className='mr-4'><SiBootstrap /></span>
                                 </div>
                                </div>
-                               <div className="card-footer work">
-                               <div className="techIcon  mt-2">
+                               <div className="card-footer ">
+                        
                                <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/BlogApp.git" className='workIcon'> <FiGithub /></a>
-                               <span className="workIcon"> || </span>
+                               <span className="techIcon"> || </span>
                                <a data-tip="View Site" rel="noreferrer" target="_blank" href="https://quiettimeblogs.herokuapp.com/" className='workIcon'><CgWebsite /></a>
-                               <span className="workIcon"> || </span>
-                                <span data-tip="Screenshots" className="workIcon" onClick={showImages}><BsImage /></span>
-                               </div>
+                               <span className="techIcon"> || </span>
+                                <span data-tip="Screenshots" className="workIcon"><BlogImages /></span>
+                              
 
                                </div>
                                
@@ -144,14 +103,12 @@ const Projects = (props: ProjectsProps) => {
                                         <span className='mr-4'><SiMysql /></span>
                                 </div>
                                </div>
-                               <div className="card-footer work">
-                               <div className="techIcon  mt-2">
+                               <div className="card-footer">
                                <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/TS-Chirper.git" className='workIcon'> <FiGithub /></a>
-                               <span className="workIcon"> || </span>
+                               <span className="techIcon"> || </span>
                                <a data-tip="View Site" rel="noreferrer" target="_blank" href="https://chirper-web.herokuapp.com/" className='workIcon'><CgWebsite /></a>
-                               <span className="workIcon"> || </span>
-                                <span data-tip="Screenshots" className="workIcon" onClick={showChirpImages}><BsImage /></span>
-                               </div>
+                               <span className="techIcon"> || </span>
+                                <span data-tip="Screenshots" className="workIcon"><ChirperImage /></span>
 
                                </div>
                                

@@ -130,20 +130,13 @@ html,#body {
     filter: grayscale(0);
 }
 
-@media(max-width: 800px){
-    .aboutIMG{
-        margin-left: 5px;
-        margin-bottom: 30px;
-    }
-}
-
 .aboutIMG:hover {
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
 }
   
 .selfText{
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-top: 5%;
     margin-right: 5%
 }
