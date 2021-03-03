@@ -68,13 +68,13 @@ const Projects = (props: ProjectsProps) => {
                                         <span className='mr-4'><SiBootstrap /></span>
                                 </div>
                                </div>
-                               <div className="card-footer ">
+                               <div className="card-footer d-flex justify-content-start align-items-center">
                         
-                               <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/BlogApp.git" className='workIcon'> <FiGithub /></a>
-                               <span className="techIcon"> || </span>
-                               <a data-tip="View Site" rel="noreferrer" target="_blank" href="https://quiettimeblogs.herokuapp.com/" className='workIcon'><CgWebsite /></a>
-                               <span className="techIcon"> || </span>
-                                <span data-tip="Screenshots" className="workIcon"><BlogImages /></span>
+                               <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/BlogApp.git" className='workIcon m-2'> <FiGithub /></a>
+                               <span className="techIcon m-2"> || </span>
+                               <a data-tip="View Site" rel="noreferrer" target="_blank" href="https://quiettimeblogs.herokuapp.com/" className='workIcon m-2'><CgWebsite /></a>
+                               <span className="techIcon m-2"> || </span>
+                                <span data-tip="Screenshots" className="workIcon m-2"><BlogImages /></span>
                               
 
                                </div>
@@ -101,14 +101,15 @@ const Projects = (props: ProjectsProps) => {
                                         <span className='mr-4'> <DiNpm /></span>
                                         <span className='mr-4'> <SiReact /></span>
                                         <span className='mr-4'><SiMysql /></span>
+                                        <span className='mr-4'><SiBootstrap /></span>
                                 </div>
                                </div>
-                               <div className="card-footer">
-                               <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/TS-Chirper.git" className='workIcon'> <FiGithub /></a>
-                               <span className="techIcon"> || </span>
-                               <a data-tip="View Site" rel="noreferrer" target="_blank" href="https://chirper-web.herokuapp.com/" className='workIcon'><CgWebsite /></a>
-                               <span className="techIcon"> || </span>
-                                <span data-tip="Screenshots" className="workIcon"><ChirperImage /></span>
+                               <div className="card-footer d-flex justify-content-start align-items-center">
+                               <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/TS-Chirper.git" className='workIcon m-2'> <FiGithub /></a>
+                               <span className="techIcon m-2"> || </span>
+                               <a data-tip="View Site" rel="noreferrer" target="_blank" href="https://chirper-web.herokuapp.com/" className='workIcon m-2'><CgWebsite /></a>
+                               <span className="techIcon m-2"> || </span>
+                                <span data-tip="Screenshots" className="workIcon m-2"><ChirperImage /></span>
 
                                </div>
                                
