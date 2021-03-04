@@ -128,11 +128,22 @@ html,#body {
     -webkit-transition: all .6s ease;
     -webkit-filter: grayscale(0); 
     filter: grayscale(0);
+    margin-top: 5%;
+    margin-left: 5%
 }
 
 .aboutIMG:hover {
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
+}
+
+@media(max-width: 850px) {
+    .aboutIMG{
+        max-width: 50%;
+        max-height: 50%;
+        display: flex;
+        justify-content: center;
+    }    
 }
   
 .selfText{
@@ -141,10 +152,9 @@ html,#body {
     margin-right: 5%
 }
 
-@media(max-width: 1400px) {
+@media(max-width: 850px) {
     .selfText{
-        font-size: 3vw;
-
+        font-size: 4vw;
     }    
 }
 
