@@ -15,12 +15,13 @@ const MobileNavbar = (props: MobileNavbarProps) => {
 
 
     return (
-       
+        <>
 
-            <nav className="MobileNavbar p-3">
+            <nav className="MobileNavbar">
 
 
                 <div className="d-flex justify-content-start">
+
                     <svg onClick={() => setShow(!show)} xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-menu-2" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <line x1="4" y1="6" x2="20" y2="6" />
@@ -29,8 +30,8 @@ const MobileNavbar = (props: MobileNavbarProps) => {
                     </svg>
 
                     {show && (
-                           
-                            <div className="d-flex flex-column align-items-md-end align-items-center justify-content-center">
+                            <>
+                            <div className="d-flex flex-column">
 
                                 <Link className="navText mt-2" to='/projects'>Projects</Link>
                            
@@ -40,7 +41,7 @@ const MobileNavbar = (props: MobileNavbarProps) => {
 
                                 </div> 
 
-                            
+                            </>
 
                     )}
 
@@ -52,6 +53,8 @@ const MobileNavbar = (props: MobileNavbarProps) => {
                 </div>
             </nav>
 
+
+        </>
     );
 };
 
