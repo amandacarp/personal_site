@@ -133,12 +133,20 @@
     margin-top: 10%
 }
 
-.icon{
+.workIcons{
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
 }
 
-.icon:hover{
+@media(max-width: 800px) {
+    .workIcons{
+       width: 25px;
+       height: 25px;
+
+    }    
+}
+
+.workIcons:hover{
     transform: scale(1.1);
     stroke: steelblue!important;
 }
@@ -148,6 +156,12 @@
     color: steelblue;
     font-weight: bold;
     text-shadow:  1px 1px 4px  #000000;
+}
+
+@media(max-width: 800px) {
+    .spanText, .spanText2{
+        font-size: 5vw;
+    }    
 }
 
 .spanText2{
@@ -173,6 +187,13 @@
     font-size: 2vw
 }
 
+@media(max-width: 800px) {
+    .contactP, .contactP2{
+        font-size: 4vw;
+
+    }    
+}
+
 //Projects
 .cardBody{
     background-color: grey!important
@@ -188,7 +209,6 @@
 
     }    
 }
-
 
 .work{
     font-size: 1.5vw;
