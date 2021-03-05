@@ -1,8 +1,6 @@
-html,#body {
+#body {
     font-family: 'Rubik', sans-serif;
     color: white;
-    margin-bottom: 0px;
-    line-height: 2;
   }
 
 
@@ -22,20 +20,7 @@ html,#body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/beach4.jpg");
 }
 
-.home, .about, .contact{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: fadeInAnimation ease 1s;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
-}
-
-.projects{
+.projects, .home, .about, .contact{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -45,6 +30,8 @@ html,#body {
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
     padding-bottom: 40px;
+    height: 100vh;
+    overflow: scroll
 }
 
   
@@ -128,35 +115,18 @@ html,#body {
     -webkit-transition: all .6s ease;
     -webkit-filter: grayscale(0); 
     filter: grayscale(0);
-    margin-top: 5%;
-    margin-left: 5%
 }
 
 .aboutIMG:hover {
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
 }
-
-@media(max-width: 850px) {
-    .aboutIMG{
-        max-width: 50%;
-        max-height: 50%;
-        display: flex;
-        justify-content: center;
-    }    
-}
   
 .selfText{
-    font-size: 1.5vw;
-    margin-top: 5%;
-    margin-right: 5%
+    font-size: 23px;
 }
 
-@media(max-width: 850px) {
-    .selfText{
-        font-size: 4vw;
-    }    
-}
+
 
 //contact
 .contactDiv{

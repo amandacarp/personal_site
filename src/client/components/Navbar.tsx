@@ -16,13 +16,13 @@ const Navbar = (props: NavbarProps) => {
                 <div className="d-flex justify-content-end align-items-center">
                     <ul className="nav">
 
-                        <li className="nav-item mx-4 mt-0">
+                        <li className="nav-item mx-4">
                             <Link className="navText" to='/projects'>Projects</Link>
                         </li>
-                        <li className="nav-item mx-4 mt-0">
+                        <li className="nav-item mx-4">
                             <Link className="navText" to='/about'>About Me</Link>
                         </li>
-                        <li className="nav-item mx-4 mt-0">
+                        <li className="nav-item mx-4">
                             <Link className="navText" to='/contact'>Contact Me</Link>
                         </li>
 
