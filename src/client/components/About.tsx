@@ -43,7 +43,7 @@ const About = (props: AboutProps) => {
             </div>
             <div className="mt-3">
             <span className="work">View My Resume</span>  
-            <a href="images/resume.pdf" rel="noreferrer" target="_blank" className="workIcon"><AiOutlineFilePdf /></a>
+            <a href="images/Resume.pdf" rel="noreferrer" target="_blank" className="workIcon"><AiOutlineFilePdf /></a>
             </div>
             </div>
             </div>
