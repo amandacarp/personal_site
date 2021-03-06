@@ -31,7 +31,8 @@
     animation-fill-mode: forwards; 
     padding-bottom: 40px;
     height: 100vh;
-    overflow: scroll
+    overflow: scroll, hidden;
+    overflow-x: hidden
 }
 
   
@@ -123,7 +124,13 @@
 }
   
 .selfText{
-    font-size: 23px;
+    font-size: 1vw;
+}
+
+@media(max-width: 800px) {
+    .selfText, .aboutIMG{
+        font-size: 3vw;
+    }    
 }
 
 
