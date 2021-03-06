@@ -128,8 +128,15 @@
 }
 
 @media(max-width: 800px) {
-    .selfText, .aboutIMG{
-        font-size: 3vw;
+    .selfText{
+        font-size: 5vw;
+    }    
+}
+
+@media(max-width: 800px) {
+    .aboutIMG{
+        height: 50%;
+        width: 50%;
     }    
 }
 
