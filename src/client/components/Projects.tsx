@@ -57,7 +57,9 @@ const Projects = (props: ProjectsProps) => {
                                 <div className="card-text">- Stripe and Mailgun 3rd Party API Service integrated.</div>
                                 <div className="card-text"> - The RESTful backend is created with ExpressJS, MySQL database, including stored procedures.</div>
                                 <div className="card-text"> - Deployed using Heroku.</div>
-                                <div className="card-footer work mt-4">Technology Used:
+                                <div className="card-footer mt-4">
+                                    <span className="work">Technology Used:</span>
+                                    
                                 <div className="techIcon">
                                         <span className='mr-4'><SiJavascript /></span>
                                         <span className='mr-4'><SiTypescript /></span>
@@ -68,8 +70,10 @@ const Projects = (props: ProjectsProps) => {
                                         <span className='mr-4'><SiBootstrap /></span>
                                 </div>
                                </div>
-                               <div className="card-footer work">
-                                Links:
+                               <div className="card-footer">
+
+                                   <span className="work">Links:</span>
+                                
                                 <div className="d-flex justify-content-start align-items-center">
                                <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/BlogApp.git" className='workIcon m-2'> <FiGithub /></a>
                                <span className="techIcon m-2"> || </span>
@@ -95,7 +99,9 @@ const Projects = (props: ProjectsProps) => {
                                 <div className="card-text">- Frontend is created with React and HTML, styled with CSS and Bootstrap.</div>
                                 <div className="card-text"> - The RESTful backend is created with ExpressJS, MySQL database.</div>
                                 <div className="card-text"> - Deployed using Heroku.</div>
-                                <div className="card-footer work mt-4">Technology Used:
+                                <div className="card-footer mt-4">
+                                    <span className="work">Technology Used:</span>
+                                    
                                 <div className="techIcon">
                                         <span className='mr-4'><SiJavascript /></span>
                                         <span className='mr-4'><SiTypescript /></span>
@@ -105,8 +111,8 @@ const Projects = (props: ProjectsProps) => {
                                         <span className='mr-4'><SiBootstrap /></span>
                                 </div>
                                </div>
-                               <div className="card-footer work">
-                               Links:
+                               <div className="card-footer">
+                               <span className="work">Links:</span> 
                                    <div className="d-flex justify-content-start align-items-center ">
                                <a data-tip="Source Code" rel="noreferrer" target="_blank" href="https://github.com/amandacarp/TS-Chirper.git" className='workIcon m-2'> <FiGithub /></a>
                                <span className="techIcon m-2"> || </span>
