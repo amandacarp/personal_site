@@ -140,7 +140,23 @@
     }    
 }
 
+.resume{
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+    text-shadow:  1px 1px 4px  #000000;
+}
 
+@media(max-width: 800px) {
+    .resume{
+       font-size: 5vw;
+    }    
+}
+
+.resume:hover{
+    text-decoration: none;
+    color: steelblue;
+}
 
 //contact
 .contactDiv{
@@ -172,12 +188,6 @@
     text-shadow:  1px 1px 4px  #000000;
 }
 
-@media(max-width: 800px) {
-    .spanText, .spanText2{
-        font-size: 5vw;
-    }    
-}
-
 .spanText2{
     font-size: 3vw;
     color: white;
@@ -202,8 +212,8 @@
 }
 
 @media(max-width: 800px) {
-    .contactP, .contactP2{
-        font-size: 4vw;
+    .contactP, .contactP2, .spanText2, .spanText{
+        font-size: 5vw;
 
     }    
 }
@@ -219,7 +229,7 @@
 
 @media(max-width: 800px) {
     .techIcon{
-        font-size: 5vw;
+        font-size: 7vw;
 
     }    
 }
@@ -233,15 +243,9 @@
 
 @media(max-width: 800px){
     .work{
-       font-size: 4vw;
+       font-size: 5vw;
     }
 }
-
-.work:hover{
-    color: steelblue;
-    text-decoration: none;
-}
-
 
 .workIcon{
     font-size: 2vw;
@@ -254,7 +258,7 @@
 
 @media(max-width: 800px) {
     .workIcon{
-        font-size: 5vw;
+        font-size: 7vw;
     }    
 }
 

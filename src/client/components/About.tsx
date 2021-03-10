@@ -42,7 +42,7 @@ const About = (props: AboutProps) => {
                        In my free time, I enjoy volunteering at animal shelters, pet-sitting and spending time in nature. You can usually find me on the beach or on a hike. 
             </div>
             <div className="mt-3">
-            <a href="images/Resume.pdf" rel="noreferrer" target="_blank" className="work">View Resume</a>
+            <a href="images/Resume.pdf" rel="noreferrer" target="_blank" className="resume">View Resume</a>
             <a href="images/Resume.pdf" rel="noreferrer" target="_blank" className="workIcon"><AiOutlineFilePdf /></a>
             </div>
             </div>
