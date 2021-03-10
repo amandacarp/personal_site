@@ -219,7 +219,7 @@
 
 @media(max-width: 800px) {
     .techIcon{
-        font-size: 4vw;
+        font-size: 5vw;
 
     }    
 }
@@ -237,6 +237,12 @@
     }
 }
 
+.work:hover{
+    transform: scale(1.1);
+    color: steelblue!important;
+    text-decoration: none;
+}
+
 
 .workIcon{
     font-size: 2vw;
@@ -249,8 +255,7 @@
 
 @media(max-width: 800px) {
     .workIcon{
-        font-size: 4vw;
-
+        font-size: 5vw;
     }    
 }
 
