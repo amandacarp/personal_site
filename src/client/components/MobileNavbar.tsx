@@ -47,9 +47,11 @@ const MobileNavbar = (props: MobileNavbarProps) => {
 
                 </div>
 
-                <div className="d-flex justify-content-start">
-                    <Link className="logoText" to='/'>Welcome to My Portfolio</Link>
-
+                <div className="d-flex justify-content-end">
+                    <Link to='/'>
+                        <img className="logoIMG" src="/images/AC_logo.png" alt="logo"/>
+                    </Link>
+                    
                 </div>
             </nav>
 

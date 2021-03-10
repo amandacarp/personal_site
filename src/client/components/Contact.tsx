@@ -22,8 +22,8 @@ const Contact = (props: ContactProps) => {
                 {width < breakpoint ? <MobileNavbar /> : <Navbar />}
                 <div className="row d-flex justify-content-center contactDiv">
                     <div className="col-auto">
-                        <h1 className="spanText">Let's Chat! </h1>
-                        <p className="contactP mt-4">If you'd like to work together, contact me at <a className="spanText2" href="mailto:carpentieri.a@gmail.com" rel="noreferrer" target="_blank"> carpentieri.a@gmail.com </a>  </p>
+                        <h1 className="chatText">Let's Chat! </h1>
+                        <p className="contactP mt-4">If you'd like to work together, contact me at <a className="emailText" href="mailto:carpentieri.a@gmail.com" rel="noreferrer" target="_blank"> carpentieri.a@gmail.com </a>  </p>
                        <p className="contactP2 mt-4"> or on the social media below...</p>
                         </div>
                         </div>

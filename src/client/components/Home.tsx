@@ -24,7 +24,7 @@ const Home = (props: HomeProps) => {
 
                     <div className="row justify-content-center">
                         <div className="col-auto text-white text-center content" >
-                            <div className="">Hello, my name is <span className="spanText">Amanda Carpentieri </span> </div>
+                            <div className="">Hello, my name is <span className="nameText">Amanda Carpentieri </span> </div>
 
                                 <div>I am a Full-Stack Software Developer</div>
                         </div>

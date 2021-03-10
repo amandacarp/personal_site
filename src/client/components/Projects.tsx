@@ -44,7 +44,7 @@ const Projects = (props: ProjectsProps) => {
 
                 <div className="row justify-content-center">
                     <div className="col-auto">
-                        <h1 className="mt-5 text-center">My Current Work</h1>
+                        <h1 className="mt-5 text-center projectText">My Current Work</h1>
                         <div className="mt-5 card cardBody">
                             <div className="card-header work ml-2">
                                 Quiet Time Blogs

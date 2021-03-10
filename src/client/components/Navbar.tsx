@@ -8,12 +8,14 @@ const Navbar = (props: NavbarProps) => {
         <>
 
             <nav className="navbar">
-                <div className="d-flex justify-content-start logoSpan">
-                    <Link className="logoText" to='/'>Welcome to My Portfolio</Link>
+                <div className="d-flex justify-content-start">
+                    <Link to='/'>
+                        <img className="logoIMG" src="/images/AC_logo.png" alt="logo"/>
+                    </Link>
                     
                 </div>
 
-                <div className="d-flex justify-content-end align-items-center">
+                <div className="d-flex justify-content-end">
                     <ul className="nav">
 
                         <li className="nav-item mx-4">
