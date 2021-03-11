@@ -10,7 +10,7 @@ const Navbar = (props: NavbarProps) => {
             <nav className="navbar">
                 <div className="d-flex justify-content-start">
                     <Link to='/'>
-                        <img className="logoIMG" src="/images/AC_logo.png" alt="logo"/>
+                        <img className="logoIMG" src="/images/logo.gif" alt="logo"/>
                     </Link>
                     
                 </div>
