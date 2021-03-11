@@ -49,7 +49,7 @@ const MobileNavbar = (props: MobileNavbarProps) => {
 
                 <div className="d-flex justify-content-end">
                     <Link to='/'>
-                        <img className="logoIMG" src="/images/AC_logo.png" alt="logo"/>
+                        <img className="logoIMG" src="/images/logo.gif"  alt="logo"/>
                     </Link>
                     
                 </div>
