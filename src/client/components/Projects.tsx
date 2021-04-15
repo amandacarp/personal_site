@@ -82,7 +82,7 @@ const Projects = (props: ProjectsProps) => {
                                <span className="techIcon m-2"> || </span>
                                <a data-tip="View Site" rel="noreferrer" target="_blank" href="https://petservices.herokuapp.com/" className='workIcon m-2'><CgWebsite /></a>
                                <span className="techIcon m-2"> || </span>
-                                <span data-tip="Screenshots" className="workIcon m-2"><PetImages /></span>
+                                <span data-tip="Screenshots" className="workIcon m-2"></span>
                               
                                 </div>
                                </div>
