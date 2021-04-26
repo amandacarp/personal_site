@@ -59,7 +59,7 @@ const Projects = (props: ProjectsProps) => {
                                 <div className="card-text"> - Clients send CRUD requests to maintain their personal pets as well as their scheduled appointments. Clients are able to choose from specific services offered by my business.</div>
                                 <div className="card-text"> - Frontend is created with React and HTML, styled with CSS and TailwindCSS. React-Calendar integrated for scheduling date selections.</div>
                                 <div className="card-text">- Mailgun 3rd Party API Service integrated.</div>
-                                <div className="card-text">- The Cat API and The Dog API Service integrated to show clients a random cat and dog picture on homepage.</div>
+                                <div className="card-text">- The Cat API and The Dog API Service integrated to show clients a random cat picture on profile page and dog picture when an edit has been saved.</div>
                                 <div className="card-text"> - The RESTful backend is created with ExpressJS, MySQL database.</div>
                                 <div className="card-text"> - Deployed using Heroku.</div>
                                 <div className="card-footer mt-4">

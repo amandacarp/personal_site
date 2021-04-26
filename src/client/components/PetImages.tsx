@@ -5,7 +5,8 @@ import { BsImage } from 'react-icons/bs';
 const images = [
     'images/homepage.png',
     'images/profilepage.png',
-    'images/servicespage.png'
+    'images/servicespage.png',
+    'images/editpage.png'
 ];
 
 function PetImages() {
